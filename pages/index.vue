@@ -9,7 +9,7 @@
         <div class="mt-4">
           <p class="font-fraunces font-bold text-very-dark-blue text-[40px] leading-10">Gabrielle Essence Eau De
             Parfum</p>
-          <p class=" mt-9 font-montserrat  leading-8 text-dark-grafish-blue font-medium" :class="hover === true ?'text-[17px]': 'text-[19px]'">A floral, solar and
+          <p class=" mt-9 font-montserrat  leading-8 text-dark-grafish-blue font-medium text-[19px]">A floral, solar and
             voluptuous interpretation
             composed by Oliver Polge, Perfumer-Creator for the House of CHANEL</p>
           <div class="flex items-center mt-14 2xl:mt-9">
