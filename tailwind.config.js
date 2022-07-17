@@ -8,10 +8,6 @@ module.exports = {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
-    fontFamily:{
-      montserrat: ['Montserrat'],
-      fraunces:['Fraunces']
-    },
     extend: {
       colors:{
         'dark-cyan': '#3c8067',

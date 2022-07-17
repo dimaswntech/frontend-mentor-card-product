@@ -5,11 +5,11 @@
         <img class="w-full " src="images/image-product-desktop.jpg"/>
       </div>
       <div class="w-[500px] 2xl:w-[400px] p-11 2xl:py-10 2xl:px-11 ">
-        <p class="font-montserrat font-light text-dark-grafish-blue tracking-[6px] font-medium">PERFUME</p>
+        <p class="font-montserrat text-dark-grafish-blue tracking-[6px] font-[500]">PERFUME</p>
         <div class="mt-4">
-          <p class="font-fraunces font-bold text-very-dark-blue text-[40px] leading-10">Gabrielle Essence Eau De
+          <p class="font-fraunces text-very-dark-blue text-[40px] leading-10" style="font-weight: 800">Gabrielle Essence Eau De
             Parfum</p>
-          <p class=" mt-9 font-montserrat  leading-8 text-dark-grafish-blue font-medium text-[19px]">A floral, solar and
+          <p class=" mt-9 font-montserrat  leading-8 text-dark-grafish-blue font-medium " :class="hover === true ? '2xl:text-[17px]' : '2xl:text-[19px]'">A floral, solar and
             voluptuous interpretation
             composed by Oliver Polge, Perfumer-Creator for the House of CHANEL</p>
           <div class="flex items-center mt-14 2xl:mt-9">
@@ -39,3 +39,6 @@ export default Vue.extend({
   }
 })
 </script>
+
+<style>
+</style>
